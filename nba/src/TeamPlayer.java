@@ -1,12 +1,13 @@
-import java.util.Random;
-
+/**
+ * Class for the players within an NBA team
+ */
 public class TeamPlayer {
-    private String jersey;
-    private String name;
-    private String firstPos;
-    private String secondPos;
-    private int mid;
-    private int three;
+    private final String jersey;
+    private final String name;
+    private final String firstPos;
+    private final String secondPos;
+    private final int mid;
+    private final int three;
     private int stamina;
 
     public TeamPlayer(String jersey, String name, String firstPos, String secondPos, int mid, int three, int stamina){

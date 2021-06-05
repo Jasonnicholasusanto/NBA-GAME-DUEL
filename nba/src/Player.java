@@ -1,8 +1,9 @@
-import org.lwjgl.system.CallbackI;
-
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Class for the users playing the game.
+ */
 public class Player {
     private static final int PLAYER_ONE = 1;
     private static final int PLAYER_TWO = 2;
@@ -41,7 +42,7 @@ public class Player {
         }
 
         while(!choiceValidity) {
-            printDashedLines();
+
             System.out.println("\nThe ball is currently with "+playerWithBall.getName());
             printDashedLines();
             System.out.println("+ PLAYER'S CHOICES: CHOOSE ONE");
